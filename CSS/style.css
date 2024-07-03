@@ -1,0 +1,226 @@
+.warna1{
+background-color: #863486ad;
+}
+
+.warna2 {
+    background-color: #c583ce;
+}
+
+.warna3{
+    background-color: #c798c9c7;
+}   
+
+.warna4{
+    background-color: #dfbddfea;
+}
+
+.banner{
+    height: 60vh;
+    width: 100%;
+    background: url('../image/bannerrfix.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.navbar-brand .Comely {
+    font-size: 2.5rem; 
+    font-weight: bold; 
+    font-family: 'Calibri', sans-serif;
+    color: rgb(252, 240, 249); 
+    text-decoration: none; 
+  }
+
+  .nav-link-custom {
+    font-size: 30 px; 
+    color: white; 
+  }
+  
+
+.custom-h1 {
+    font-size: 4.5rem; 
+    font-family: 'Times New Roman', sans-serif; 
+    font-weight: bold; 
+    color: black;
+  
+}
+
+.text-center-h5 {
+    text-align: start;
+    font-weight: medium;
+    color: black;
+}
+
+
+
+.highlighted-kategori{
+    height: 350px;
+}
+
+.kategori-Flowers-Bouquet{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/Scarlet.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-Snack-Bouquet{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/Nextar.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-Money-Bouquet{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/money.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.no-decoration{
+    text-decoration: none;
+    color: white;
+}
+
+.no-decoration:hover{
+    color:#ecafd5c9;
+}
+
+.text-harga{
+    font-size:22px;
+    color:#00294bbd;
+}
+
+.image-box{
+    height: 400px;
+}
+
+.image-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: cover;
+}
+
+.content-subscribe{ /*temui kami*/
+    background-color: rgba(75, 67, 67, 0.7);
+}
+
+.content-subscribe a {
+    color: #fff;
+}
+
+.banner-produk{
+    height: 30vh;
+    background: url('../image/bannerrfix.png');
+    background-position: 60% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image-box-produk img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: cover;
+}
+
+.produk-terkait-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+  /*----SEARCH--*/
+  
+  .search-box-container {
+    position: absolute;
+    top: 100px;
+    right: 40px;
+}
+
+.input-group-sm {
+    display: flex;
+    align-items: center;
+}
+
+.input-group-sm .form-control {
+    width: 600px !important; /* Lebar input di desktop */
+    height: 40px; /* Tinggi input */
+    font-size: 16px; /* Ukuran font input */
+    margin-right: 10px; /* Memberikan sedikit jarak antara input dan tombol */
+    padding: 0 10px;
+}
+
+.input-group-sm .btn {
+    height: 40px; /* Tinggi tombol */
+    font-size: 16px; /* Ukuran font tombol */
+    padding: 0 10px; /* Padding dalam tombol */
+}
+
+@media (max-width: 768px) {
+    .search-box-container {
+        position: static;
+        margin: 10px;
+        width: auto;
+    }
+
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-group-sm .form-control {
+        width: 100% !important; 
+        margin-bottom: 10px; 
+        height: 30px; /* Tinggi input di mobile */
+        font-size: 16px; /* Ukuran font input di mobile */
+        margin-right: 0; /* Reset margin pada mobile */
+    }
+
+    .btn {
+        width: auto; /* Hilangkan lebar penuh */
+        height: 40px; /* Tinggi tombol di mobile */
+        font-size: 16px; /* Ukuran font tombol di mobile */
+    }
+}
+
+/* bagian tmbh cart */
+
+.product-quantity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.quantity-input {
+    text-align: center;
+    flex: 1;
+    max-width: 100%; /* Menentukan lebar maksimum agar tidak terlalu panjang */
+    width: 60%; /* Lebar yang lebih besar */
+    box-sizing: border-box; /* Memastikan padding dimasukkan dalam lebar */
+}
+
+.quantity-controls button {
+    flex-shrink: 0;
+}
+
+.add-to-cart {
+    width: 100%; /* Lebar 100% dari kontainer */
+    text-align: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    max-width: 100%; /* Pastikan tombol mengambil lebar penuh */
+}
+
